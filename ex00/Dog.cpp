@@ -1,21 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Dog.hpp                                            :+:      :+:    :+:   */
+/*   Dog.cpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/28 12:56:19 by ahajji            #+#    #+#             */
-/*   Updated: 2023/12/28 15:26:16 by ahajji           ###   ########.fr       */
+/*   Created: 2023/12/28 15:26:33 by ahajji            #+#    #+#             */
+/*   Updated: 2023/12/28 15:30:51 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "Dog.hpp"
 
-class Dog : public Animal
+Dog::Dog()
 {
-    public:
-        Dog();
-        ~Dog();
-        
+    std::cout << "call constructer of dog" << std::endl;
+}
+
+Dog::~Dog()
+{
+    
 }
