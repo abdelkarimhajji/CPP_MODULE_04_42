@@ -6,10 +6,12 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/27 15:35:08 by ahajji            #+#    #+#             */
-/*   Updated: 2023/12/28 21:46:23 by ahajji           ###   ########.fr       */
+/*   Updated: 2023/12/29 12:32:46 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef ANIMAL_HPP
+#define ANIMAL_HPP
 #include "iostream"
 
 class Animal
@@ -17,7 +19,8 @@ class Animal
     protected:
         std::string type;
     public:
-        Animal(const std::string );
+        Animal();
         ~Animal();
-        void makeSound();
+         void makeSound() const;
 };
+#endif
