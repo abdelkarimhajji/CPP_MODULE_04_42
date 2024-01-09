@@ -6,13 +6,17 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 19:13:55 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 19:14:46 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/09 19:18:54 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef BRAIN_HPP
 #define BRAIN_HPP
 
-
+class Brain
+{
+    Brain();
+    ~Brain();
+};
 
 #endif
