@@ -1,48 +1,48 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Animal.cpp                                         :+:      :+:    :+:   */
+/*   WrongAnimal.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 12:46:04 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 18:16:50 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/09 18:58:55 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "WrongAnimal.hpp"
 
-Animal::Animal()
+WrongAnimal::WrongAnimal()
 {
-    this->type = "Animal";
-    std::cout << "call constructer of Animal" << std::endl;
+    this->type = "WrongAnimal";
+    std::cout << "call constructer of WrongAnimal" << std::endl;
 }
 
-Animal::~Animal()
+WrongAnimal::~WrongAnimal()
 {
-    std::cout << "call destructer of Animal" << std::endl;
+    std::cout << "call destructer of WrongAnimal" << std::endl;
 }
 
-Animal::Animal(Animal &copy)
+WrongAnimal::WrongAnimal(WrongAnimal &copy)
 {
     this->type = copy.type;
-    std::cout << "call copy constructer of Animal" << std::endl;
+    std::cout << "call copy constructer of WrongAnimal" << std::endl;
 }
 
-void    Animal::makeSound() const
+void    WrongAnimal::makeSound() const
 {
     std::cout << "print sound" << std::endl;
 }
 
-std::string Animal::getType() const
+std::string WrongAnimal::getType() const
 {
-    std::cout << "call getType from animal" << std::endl;
+    std::cout << "call getType from WrongAnimal" << std::endl;
     return this->type;
 }
 
-Animal &Animal::operator=(Animal const &copy)
+WrongAnimal &WrongAnimal::operator=(WrongAnimal const &copy)
 {
     this->type = copy.type;
-    std::cout << "call operator= of Animal" << std::endl;
+    std::cout << "call operator= of WrongAnimal" << std::endl;
     return *this;
 }
