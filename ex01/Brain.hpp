@@ -6,12 +6,14 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 19:13:55 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 19:18:54 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/09 19:21:16 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef BRAIN_HPP
 #define BRAIN_HPP
+
+#include <iostream>
 
 class Brain
 {
