@@ -6,7 +6,7 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/27 15:35:08 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 20:53:36 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/10 12:49:37 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,16 +17,15 @@
 
 class Animal
 {
-    private:
-        Brain* brain;
     protected:
         std::string type;
     public:
         Animal();
-        ~Animal();
+        virtual ~Animal();
         Animal(Animal &copy);
         Animal &operator=(Animal const &copy);
         virtual void makeSound() const;
         virtual std::string getType() const;
 };
+
 #endif
