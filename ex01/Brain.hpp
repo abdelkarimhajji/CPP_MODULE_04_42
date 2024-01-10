@@ -6,7 +6,7 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 19:13:55 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 19:21:16 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/09 19:35:00 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,11 @@
 
 class Brain
 {
-    Brain();
-    ~Brain();
+    protected:
+        std::string ideas[100];
+    public:
+        Brain();
+        ~Brain();
 };
 
 #endif
