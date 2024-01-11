@@ -6,7 +6,7 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 19:13:05 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/10 13:21:28 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/11 11:49:29 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int main(void)
 {
     const Animal* j = new Dog();
     const Animal* i = new Cat();
-    
+ 
     Animal* animals[4];
     animals[0] = new Dog();
     animals[1] = new Dog();
