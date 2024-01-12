@@ -6,7 +6,7 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/27 12:38:44 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 19:06:26 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/12 10:26:55 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,12 @@ int main(void)
     const WrongAnimal* j2 = new WrongCat();
     j2->makeSound();
     meta2->makeSound();
+
+    delete  meta;
+    delete  j;
+    delete  i;
+    delete  meta2;
+    delete j2;
+
     return 0;
 }

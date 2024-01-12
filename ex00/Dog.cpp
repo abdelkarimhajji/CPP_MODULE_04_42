@@ -6,7 +6,7 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 15:26:33 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 18:53:37 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/12 10:28:47 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ Dog::Dog()
 
 Dog::~Dog()
 {
-    
+    std::cout << "call destructer from dog" << std::endl;
 }
 
 Dog::Dog(Dog &copy)
