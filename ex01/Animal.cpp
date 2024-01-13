@@ -6,13 +6,13 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 12:46:04 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/09 18:16:50 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/13 11:48:47 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Animal.hpp"
 
-Animal::Animal()
+Animal::Animal() 
 {
     this->type = "Animal";
     std::cout << "call constructer of Animal" << std::endl;

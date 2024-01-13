@@ -6,7 +6,7 @@
 /*   By: ahajji <ahajji@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/27 15:35:08 by ahajji            #+#    #+#             */
-/*   Updated: 2024/01/12 10:01:22 by ahajji           ###   ########.fr       */
+/*   Updated: 2024/01/13 11:34:42 by ahajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class Animal
         std::string type;
     public:
         Animal();
-        virtual ~Animal();
+        ~Animal();
         Animal(Animal &copy);
         Animal &operator=(Animal const &copy);
         virtual void makeSound() const;
